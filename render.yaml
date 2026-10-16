@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mahim-ai
+    runtime: python
+    plan: free
+    buildCommand: echo "No third-party dependencies required"
+    startCommand: python3 server.py
