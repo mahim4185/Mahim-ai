@@ -1,0 +1,999 @@
+{
+  "repository": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+  "categories": [
+    "🧩 Agent Skills",
+    "🛠️ Standalone Apps & Tools",
+    "🌱 Starter AI Agents",
+    "🚀 Advanced AI Agents",
+    "🛰️ Always-on Agents",
+    "🤝 Multi-agent Teams",
+    "🗣️ Voice AI Agents",
+    "🖼️ Generative UI and Agentic Frontends",
+    "🎮 Autonomous Game-Playing Agents",
+    "♾️ MCP AI Agents",
+    "📀 RAG (Retrieval Augmented Generation)",
+    "💾 LLM Apps with Memory",
+    "💬 Chat with X",
+    "🎯 LLM Optimization Tools",
+    "🔧 LLM Fine-tuning",
+    "🧑‍🏫 AI Agent Framework Crash Courses"
+  ],
+  "items": [
+    {
+      "id": "project-graveyard",
+      "title": "⚰️ Project Graveyard",
+      "category": "🧩 Agent Skills",
+      "description": "Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to",
+      "path": "agent_skills/project-graveyard/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/project-graveyard/"
+    },
+    {
+      "id": "first-reader",
+      "title": "👁️ First Reader",
+      "category": "🧩 Agent Skills",
+      "description": "Simulates real readers going through your draft and reports where they lose interest, where they stop reading, and what they remember afterward, without rewriting a word",
+      "path": "agent_skills/first-reader/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/first-reader/"
+    },
+    {
+      "id": "scope-creep-detector",
+      "title": "🔭 Scope Creep Detector",
+      "category": "🧩 Agent Skills",
+      "description": "Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify",
+      "path": "agent_skills/scope-creep-detector/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/scope-creep-detector/"
+    },
+    {
+      "id": "commit-archaeologist",
+      "title": "🏺 Commit Archaeologist",
+      "category": "🧩 Agent Skills",
+      "description": "Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues",
+      "path": "agent_skills/commit-archaeologist/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/commit-archaeologist/"
+    },
+    {
+      "id": "dependency-doctor",
+      "title": "🩺 Dependency Doctor",
+      "category": "🧩 Agent Skills",
+      "description": "Checks a dependency manifest for standard-library pins, obsolete backports, unpinned entries, duplicate constraints, and yanked releases",
+      "path": "agent_skills/dependency-doctor/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/dependency-doctor/"
+    },
+    {
+      "id": "advisor-orchestrator-worker",
+      "title": "🧠 Advisor Orchestrator Worker",
+      "category": "🧩 Agent Skills",
+      "description": "Meta Loop with Claude Fable 5.1 as advisor, GPT-6 Astra as orchestrator, and Gemini 3.8 Flash as worker",
+      "path": "agent_skills/advisor-orchestrator-worker/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/advisor-orchestrator-worker/"
+    },
+    {
+      "id": "thinking-out-loud",
+      "title": "🎙️ Thinking Out Loud",
+      "category": "🧩 Agent Skills",
+      "description": "Echoes a voice ramble back as a scannable brief, with the model's guesses quarantined and your reversals flagged",
+      "path": "agent_skills/thinking-out-loud/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/thinking-out-loud/"
+    },
+    {
+      "id": "self-improving-agent-skills",
+      "title": "♾️ Self-Improving Agent Skills",
+      "category": "🧩 Agent Skills",
+      "description": "Automatically optimize agent skills using Gemini and ADK",
+      "path": "agent_skills/self-improving-agent-skills/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/agent_skills/self-improving-agent-skills/"
+    },
+    {
+      "id": "excaliflow-hand-drawn-diagrams-with-live-animated-flows",
+      "title": "✏️ Excaliflow - Hand-Drawn Diagrams with Live Animated Flows",
+      "category": "🛠️ Standalone Apps & Tools",
+      "description": "Sketch system architectures and AI agent workflows on an Excalidraw-style canvas with live animated arrows and video export",
+      "path": "advanced_llm_apps/excaliflow/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/excaliflow/"
+    },
+    {
+      "id": "needle-a-new-way-to-find",
+      "title": "🪡 Needle - A New Way to Find",
+      "category": "🛠️ Standalone Apps & Tools",
+      "description": "Search webpages by meaning and highlight the strongest source sentence, using a Chrome extension powered by TypeSafe Jev",
+      "path": "advanced_llm_apps/needle/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/needle/"
+    },
+    {
+      "id": "ripple-change-one-thing-find-what-else-needs-to-change",
+      "title": "🌀 Ripple - Change One Thing, Find What Else Needs to Change",
+      "category": "🛠️ Standalone Apps & Tools",
+      "description": "Find related inconsistencies and suggested fixes as you edit a Google Doc, using TypeSafe Jev and Gemini",
+      "path": "advanced_llm_apps/ripple/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/ripple/"
+    },
+    {
+      "id": "ai-blog-to-podcast-agent",
+      "title": "🎙️ AI Blog to Podcast Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Turn any blog URL into a narrated podcast episode",
+      "path": "starter_ai_agents/ai_blog_to_podcast_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_blog_to_podcast_agent/"
+    },
+    {
+      "id": "ai-breakup-recovery-agent",
+      "title": "❤️‍🩹 AI Breakup Recovery Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "An agent team that talks you through the post-breakup spiral",
+      "path": "starter_ai_agents/ai_breakup_recovery_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_breakup_recovery_agent/"
+    },
+    {
+      "id": "ai-data-analysis-agent",
+      "title": "📊 AI Data Analysis Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Ask questions of any CSV or Excel file in plain English",
+      "path": "starter_ai_agents/ai_data_analysis_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_data_analysis_agent/"
+    },
+    {
+      "id": "ai-medical-imaging-agent",
+      "title": "🩻 AI Medical Imaging Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Diagnostic analysis of X-rays and scans with Gemini",
+      "path": "starter_ai_agents/ai_medical_imaging_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_medical_imaging_agent/"
+    },
+    {
+      "id": "ai-meme-generator-agent-browser",
+      "title": "😂 AI Meme Generator Agent (Browser)",
+      "category": "🌱 Starter AI Agents",
+      "description": "Makes memes by driving a real browser, not an image API",
+      "path": "starter_ai_agents/ai_meme_generator_agent_browseruse/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_meme_generator_agent_browseruse/"
+    },
+    {
+      "id": "ai-music-generator-agent",
+      "title": "🎵 AI Music Generator Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Prompt in, MP3 track out",
+      "path": "starter_ai_agents/ai_music_generator_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_music_generator_agent/"
+    },
+    {
+      "id": "ai-travel-agent-local-cloud",
+      "title": "🛫 AI Travel Agent (Local & Cloud)",
+      "category": "🌱 Starter AI Agents",
+      "description": "Personalized day-by-day travel itineraries",
+      "path": "starter_ai_agents/ai_travel_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_travel_agent/"
+    },
+    {
+      "id": "ai-x402-paying-agent",
+      "title": "💸 AI x402 Paying Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "An agent with a wallet that pays per-call for the data it needs — no API keys",
+      "path": "starter_ai_agents/ai_x402_paying_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/ai_x402_paying_agent/"
+    },
+    {
+      "id": "gemini-multimodal-agent",
+      "title": "✨ Gemini Multimodal Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Video analysis plus web search in one agent",
+      "path": "starter_ai_agents/multimodal_ai_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/multimodal_ai_agent/"
+    },
+    {
+      "id": "mixture-of-agents",
+      "title": "🔄 Mixture of Agents",
+      "category": "🌱 Starter AI Agents",
+      "description": "Multiple LLMs answer, one aggregates the best response",
+      "path": "starter_ai_agents/mixture_of_agents/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/mixture_of_agents/"
+    },
+    {
+      "id": "xai-finance-agent",
+      "title": "📊 xAI Finance Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Real-time stock analysis powered by Grok",
+      "path": "starter_ai_agents/xai_finance_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/xai_finance_agent/"
+    },
+    {
+      "id": "openai-research-agent",
+      "title": "🔍 OpenAI Research Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Multi-agent topic research with the OpenAI Agents SDK",
+      "path": "starter_ai_agents/openai_research_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/openai_research_agent/"
+    },
+    {
+      "id": "web-scraping-ai-agent",
+      "title": "🕸️ Web Scraping AI Agent",
+      "category": "🌱 Starter AI Agents",
+      "description": "Describe what to extract and the agent scrapes it",
+      "path": "starter_ai_agents/web_scraping_ai_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/starter_ai_agents/web_scraping_ai_agent/"
+    },
+    {
+      "id": "ai-home-renovation-agent-with-nano-banana-pro",
+      "title": "🏚️ 🍌 AI Home Renovation Agent with Nano Banana Pro",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Photos of your space in, renovation plan and photorealistic renders out",
+      "path": "advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent"
+    },
+    {
+      "id": "devpulse-ai-multi-agent-signal-intelligence",
+      "title": "🧠 DevPulse AI - Multi-Agent Signal Intelligence",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Aggregates and scores technical signals into a daily intelligence digest",
+      "path": "advanced_ai_agents/multi_agent_apps/devpulse_ai/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/devpulse_ai/"
+    },
+    {
+      "id": "ai-deep-research-agent",
+      "title": "🔍 AI Deep Research Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Comprehensive web research with the OpenAI Agents SDK and Firecrawl",
+      "path": "advanced_ai_agents/single_agent_apps/ai_deep_research_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_deep_research_agent/"
+    },
+    {
+      "id": "ai-vc-due-diligence-agent-team",
+      "title": "📊 AI VC Due Diligence Agent Team",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Multi-agent startup investment analysis with Gemini 3",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team"
+    },
+    {
+      "id": "ai-research-planner-executor-google-interactions-api",
+      "title": "🔬 AI Research Planner & Executor (Google Interactions API)",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Multi-phase research with stateful conversations and auto-generated infographics",
+      "path": "advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api"
+    },
+    {
+      "id": "ai-consultant-agent",
+      "title": "🤝 AI Consultant Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Market analysis and strategy recommendations with live web research",
+      "path": "advanced_ai_agents/single_agent_apps/ai_consultant_agent",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_consultant_agent"
+    },
+    {
+      "id": "ai-system-architect-agent",
+      "title": "🏗️ AI System Architect Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Architecture reviews using DeepSeek R1 reasoning plus Claude",
+      "path": "advanced_ai_agents/single_agent_apps/ai_system_architect_r1/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_system_architect_r1/"
+    },
+    {
+      "id": "ai-financial-coach-agent",
+      "title": "💰 AI Financial Coach Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Personalized budget, debt, and savings analysis",
+      "path": "advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent/"
+    },
+    {
+      "id": "ai-movie-production-agent",
+      "title": "🎬 AI Movie Production Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Script drafts and casting ideas from a one-line movie concept",
+      "path": "advanced_ai_agents/single_agent_apps/ai_movie_production_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_movie_production_agent/"
+    },
+    {
+      "id": "ai-investment-agent",
+      "title": "📈 AI Investment Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Stock comparison reports built on Yahoo Finance data",
+      "path": "advanced_ai_agents/single_agent_apps/ai_investment_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_investment_agent/"
+    },
+    {
+      "id": "earnings-call-analyst-agent",
+      "title": "📡 Earnings Call Analyst Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Turns YouTube earnings calls into a playback-synced analyst workspace",
+      "path": "advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/"
+    },
+    {
+      "id": "ai-health-fitness-agent",
+      "title": "🏋️‍♂️ AI Health & Fitness Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Tailored diet and workout plans from your goals",
+      "path": "advanced_ai_agents/single_agent_apps/ai_health_fitness_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_health_fitness_agent/"
+    },
+    {
+      "id": "ai-product-launch-intelligence-agent",
+      "title": "🚀 AI Product Launch Intelligence Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Go-to-market intelligence on competitor launches",
+      "path": "advanced_ai_agents/multi_agent_apps/product_launch_intelligence_agent",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/product_launch_intelligence_agent"
+    },
+    {
+      "id": "ai-fraud-investigation-agent",
+      "title": "🔍 AI Fraud Investigation Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Cross-references public records to flag facilities that don't add up",
+      "path": "advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/"
+    },
+    {
+      "id": "ai-journalist-agent",
+      "title": "🗞️ AI Journalist Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Researches, writes, and edits articles on any topic",
+      "path": "advanced_ai_agents/single_agent_apps/ai_journalist_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_journalist_agent/"
+    },
+    {
+      "id": "ai-mental-wellbeing-agent",
+      "title": "🧠 AI Mental Wellbeing Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "A coordinated agent team for mental health support plans",
+      "path": "advanced_ai_agents/multi_agent_apps/ai_mental_wellbeing_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_mental_wellbeing_agent/"
+    },
+    {
+      "id": "ai-meeting-agent",
+      "title": "📑 AI Meeting Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Context, industry insights, and strategy briefs before you walk in",
+      "path": "advanced_ai_agents/single_agent_apps/ai_meeting_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/single_agent_apps/ai_meeting_agent/"
+    },
+    {
+      "id": "ai-self-evolving-agent",
+      "title": "🧬 AI Self-Evolving Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Agents that rewrite their own workflows with EvoAgentX",
+      "path": "advanced_ai_agents/multi_agent_apps/ai_self_evolving_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_self_evolving_agent/"
+    },
+    {
+      "id": "ai-sales-intelligence-agent-team",
+      "title": "👨🏻‍💼 AI Sales Intelligence Agent Team",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Generates competitive sales battle cards in real time",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team"
+    },
+    {
+      "id": "ai-social-media-news-and-podcast-agent",
+      "title": "🎧 AI Social Media News and Podcast Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Curates your trusted sources into briefs and generated podcasts",
+      "path": "advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/"
+    },
+    {
+      "id": "openwork-open-browser-automation-agent",
+      "title": "🌐 Openwork - Open Browser Automation Agent",
+      "category": "🚀 Advanced AI Agents",
+      "description": "↗ external - Open-source agent that operates a real browser",
+      "path": "https://github.com/accomplish-ai/coworker",
+      "source": "https://github.com/accomplish-ai/coworker"
+    },
+    {
+      "id": "trust-gated-multi-agent-research-team",
+      "title": "🛡️ Trust-Gated Multi-Agent Research Team",
+      "category": "🚀 Advanced AI Agents",
+      "description": "Every agent verified, every action in a hash-chained audit trail",
+      "path": "advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/"
+    },
+    {
+      "id": "always-on-hacker-news-briefing-agent",
+      "title": "📰 Always-on Hacker News Briefing Agent",
+      "category": "🛰️ Always-on Agents",
+      "description": "A scheduled scout that ships a ranked daily brief to Slack or email",
+      "path": "always_on_agents/always_on_hn_briefing_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/always_on_agents/always_on_hn_briefing_agent/"
+    },
+    {
+      "id": "release-radar-agent",
+      "title": "📡 Release Radar Agent",
+      "category": "🛰️ Always-on Agents",
+      "description": "Watches dependency releases and briefs you on breaking, deprecated, security, and major-version changes",
+      "path": "always_on_agents/release_radar_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/always_on_agents/release_radar_agent/"
+    },
+    {
+      "id": "ai-competitor-intelligence-agent-team",
+      "title": "🧲 AI Competitor Intelligence Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Structured competitor teardowns built from their own websites",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_competitor_intelligence_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_competitor_intelligence_agent_team/"
+    },
+    {
+      "id": "ai-finance-agent-team",
+      "title": "💲 AI Finance Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "A financial analyst team in 20 lines of Python",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_finance_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_finance_agent_team/"
+    },
+    {
+      "id": "ai-game-design-agent-team",
+      "title": "🎨 AI Game Design Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Full game concepts from a swarm of design specialists",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/"
+    },
+    {
+      "id": "ag2-adaptive-research-team",
+      "title": "🧭 AG2 Adaptive Research Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Agent teamwork with routing and fallback, built on AG2",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ag2_adaptive_research_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ag2_adaptive_research_team/"
+    },
+    {
+      "id": "ai-legal-agent-team-cloud-local",
+      "title": "👨‍⚖️ AI Legal Agent Team (Cloud & Local)",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Research, contract analysis, and strategy from a full legal bench",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_legal_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_legal_agent_team/"
+    },
+    {
+      "id": "ai-recruitment-agent-team",
+      "title": "💼 AI Recruitment Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Resume screening to interview scheduling, end to end",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_recruitment_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_recruitment_agent_team/"
+    },
+    {
+      "id": "ai-real-estate-agent-team",
+      "title": "🏠 AI Real Estate Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Property search, market analysis, and recommendations",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team"
+    },
+    {
+      "id": "ai-services-agency-crewai",
+      "title": "👨‍💼 AI Services Agency (CrewAI)",
+      "category": "🤝 Multi-agent Teams",
+      "description": "A digital agency that scopes and plans your software project",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/"
+    },
+    {
+      "id": "ai-teaching-agent-team",
+      "title": "👨‍🏫 AI Teaching Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "A faculty of agents that builds your complete learning path",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_teaching_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_teaching_agent_team/"
+    },
+    {
+      "id": "multimodal-coding-agent-team",
+      "title": "💻 Multimodal Coding Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Snap a photo of a coding problem, get a sandboxed solution",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_coding_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_coding_agent_team/"
+    },
+    {
+      "id": "multimodal-design-agent-team",
+      "title": "✨ Multimodal Design Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Design critiques from a Gemini-powered expert panel",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/"
+    },
+    {
+      "id": "multimodal-ui-ux-feedback-agent-team",
+      "title": "🎨 🍌 Multimodal UI/UX Feedback Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Landing page feedback plus an auto-generated improved version",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/"
+    },
+    {
+      "id": "ai-travel-planner-agent-team",
+      "title": "🌏 AI Travel Planner Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "A complete trip itinerary, crafted by a team",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/"
+    },
+    {
+      "id": "llm-panel-agent-team",
+      "title": "⚖️ LLM Panel Agent Team",
+      "category": "🤝 Multi-agent Teams",
+      "description": "Three vendors review the same diff blind, then argue it out anonymously",
+      "path": "advanced_ai_agents/multi_agent_apps/agent_teams/llm_panel_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/multi_agent_apps/agent_teams/llm_panel_agent_team/"
+    },
+    {
+      "id": "ai-audio-tour-agent",
+      "title": "🗣️ AI Audio Tour Agent",
+      "category": "🗣️ Voice AI Agents",
+      "description": "Self-guided audio tours from your location, interests, and pace",
+      "path": "voice_ai_agents/ai_audio_tour_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/voice_ai_agents/ai_audio_tour_agent/"
+    },
+    {
+      "id": "customer-support-voice-agent",
+      "title": "📞 Customer Support Voice Agent",
+      "category": "🗣️ Voice AI Agents",
+      "description": "Voice answers grounded in your own docs",
+      "path": "voice_ai_agents/customer_support_voice_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/voice_ai_agents/customer_support_voice_agent/"
+    },
+    {
+      "id": "insurance-claim-live-agent-team",
+      "title": "🛡️ Insurance Claim Live Agent Team",
+      "category": "🗣️ Voice AI Agents",
+      "description": "Voice claim intake on Gemini 3.8 Live that writes a field notebook, looks at damage through the webcam, and sketches the incident",
+      "path": "voice_ai_agents/insurance_claim_live_agent_team/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/voice_ai_agents/insurance_claim_live_agent_team/"
+    },
+    {
+      "id": "voice-rag-agent-openai-sdk",
+      "title": "🔊 Voice RAG Agent (OpenAI SDK)",
+      "category": "🗣️ Voice AI Agents",
+      "description": "Ask your PDFs questions, hear the answers",
+      "path": "voice_ai_agents/voice_rag_openaisdk/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/voice_ai_agents/voice_rag_openaisdk/"
+    },
+    {
+      "id": "opensource-voice-dictation-agent-wispr-flow-clone",
+      "title": "🎙️ OpenSource Voice Dictation Agent (Wispr Flow clone)",
+      "category": "🗣️ Voice AI Agents",
+      "description": "↗ external - Open-source dictation that types where you talk",
+      "path": "https://github.com/akshayaggarwal99/jarvis-ai-assistant",
+      "source": "https://github.com/akshayaggarwal99/jarvis-ai-assistant"
+    },
+    {
+      "id": "generative-ui-starter-project",
+      "title": "🗂️ Generative UI Starter Project",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "A chat-driven kanban board you and the agent work together",
+      "path": "generative_ui_agents/generative-ui-starter-project/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/generative-ui-starter-project/"
+    },
+    {
+      "id": "ai-financial-coach-agent",
+      "title": "🪙 AI Financial Coach Agent",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "Budget, savings, and debt plans rendered as interactive cards",
+      "path": "generative_ui_agents/ai-financial-coach-agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/ai-financial-coach-agent/"
+    },
+    {
+      "id": "ai-dashboard-canvas-agent",
+      "title": "📊 AI Dashboard Canvas Agent",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "Describe a dashboard in chat, charts assemble on a live canvas",
+      "path": "generative_ui_agents/ai-dashboard-canvas-agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/ai-dashboard-canvas-agent/"
+    },
+    {
+      "id": "ai-mcp-app-builder",
+      "title": "🛠️ AI MCP App Builder",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "Describe an MCP app, get a live sandboxed instance back",
+      "path": "generative_ui_agents/ai-mcp-app-builder/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/ai-mcp-app-builder/"
+    },
+    {
+      "id": "mcp-apps-generative-ui-showcase",
+      "title": "✈️ MCP Apps Generative UI Showcase",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "MCP apps that render real interactive UI, flight search included",
+      "path": "generative_ui_agents/mcp-apps-generative-ui-showcase/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/mcp-apps-generative-ui-showcase/"
+    },
+    {
+      "id": "ai-shadcn-component-generator",
+      "title": "🎛️ AI Shadcn Component Generator",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "Chat your way to production-ready shadcn components",
+      "path": "generative_ui_agents/ai-shadcn-component-generator/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/ai-shadcn-component-generator/"
+    },
+    {
+      "id": "ai-deep-research-agent",
+      "title": "🔍 AI Deep Research Agent",
+      "category": "🖼️ Generative UI and Agentic Frontends",
+      "description": "Research where every tool call renders as a live workspace card",
+      "path": "generative_ui_agents/ai-deep-research-agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/generative_ui_agents/ai-deep-research-agent/"
+    },
+    {
+      "id": "ai-3d-pygame-agent",
+      "title": "🎮 AI 3D Pygame Agent",
+      "category": "🎮 Autonomous Game-Playing Agents",
+      "description": "DeepSeek R1 writes PyGame code, browser agents run it live",
+      "path": "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/"
+    },
+    {
+      "id": "ai-chess-agent",
+      "title": "♜ AI Chess Agent",
+      "category": "🎮 Autonomous Game-Playing Agents",
+      "description": "Agent White vs Agent Black with validated moves",
+      "path": "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/"
+    },
+    {
+      "id": "ai-tic-tac-toe-agent",
+      "title": "🎲 AI Tic-Tac-Toe Agent",
+      "category": "🎮 Autonomous Game-Playing Agents",
+      "description": "Two different LLMs battle it out, move by move",
+      "path": "advanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/"
+    },
+    {
+      "id": "browser-mcp-agent",
+      "title": "♾️ Browser MCP Agent",
+      "category": "♾️ MCP AI Agents",
+      "description": "Drive a real browser with natural language over MCP",
+      "path": "mcp_ai_agents/browser_mcp_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/browser_mcp_agent/"
+    },
+    {
+      "id": "github-mcp-agent",
+      "title": "🐙 GitHub MCP Agent",
+      "category": "♾️ MCP AI Agents",
+      "description": "Explore and analyze any repo in plain English",
+      "path": "mcp_ai_agents/github_mcp_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/github_mcp_agent/"
+    },
+    {
+      "id": "notion-mcp-agent",
+      "title": "📑 Notion MCP Agent",
+      "category": "♾️ MCP AI Agents",
+      "description": "Talk to your Notion pages from the terminal",
+      "path": "mcp_ai_agents/notion_mcp_agent",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/notion_mcp_agent"
+    },
+    {
+      "id": "ai-travel-planner-mcp-agent",
+      "title": "🌍 AI Travel Planner MCP Agent",
+      "category": "♾️ MCP AI Agents",
+      "description": "Itineraries built on live Airbnb and Google Maps data",
+      "path": "mcp_ai_agents/ai_travel_planner_mcp_agent_team",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/ai_travel_planner_mcp_agent_team"
+    },
+    {
+      "id": "multi-mcp-agent-router",
+      "title": "🔀 Multi-MCP Agent Router",
+      "category": "♾️ MCP AI Agents",
+      "description": "Specialist agents, each wired to its own MCP server",
+      "path": "mcp_ai_agents/multi_mcp_agent_router/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/multi_mcp_agent_router/"
+    },
+    {
+      "id": "openai-remote-mcp-tool-bridge",
+      "title": "🔌 OpenAI Remote MCP Tool Bridge",
+      "category": "♾️ MCP AI Agents",
+      "description": "Connect OpenAI function calling directly to a remote MCP server",
+      "path": "mcp_ai_agents/openai_remote_mcp_bridge/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/openai_remote_mcp_bridge/"
+    },
+    {
+      "id": "agentic-rag-with-embedding-gemma",
+      "title": "🔥 Agentic RAG with Embedding Gemma",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Fully local agentic RAG with EmbeddingGemma and Llama 3.2",
+      "path": "rag_tutorials/agentic_rag_embedding_gemma",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/agentic_rag_embedding_gemma"
+    },
+    {
+      "id": "agentic-rag-with-reasoning",
+      "title": "🧐 Agentic RAG with Reasoning",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Watch the agent's step-by-step reasoning as it retrieves",
+      "path": "rag_tutorials/agentic_rag_with_reasoning/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/agentic_rag_with_reasoning/"
+    },
+    {
+      "id": "ai-blog-search-rag",
+      "title": "📰 AI Blog Search (RAG)",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Agentic search over blog content, built on LangGraph",
+      "path": "rag_tutorials/ai_blog_search/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/ai_blog_search/"
+    },
+    {
+      "id": "autonomous-rag",
+      "title": "🔍 Autonomous RAG",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "GPT-4o answers from your PDFs, falls back to web search",
+      "path": "rag_tutorials/autonomous_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/autonomous_rag/"
+    },
+    {
+      "id": "contextual-ai-rag-agent",
+      "title": "🔄 Contextual AI RAG Agent",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Managed RAG: datastore to grounded chat in minutes",
+      "path": "rag_tutorials/contextualai_rag_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/contextualai_rag_agent/"
+    },
+    {
+      "id": "corrective-rag-crag",
+      "title": "🔄 Corrective RAG (CRAG)",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Retrieval that grades itself and retries before answering",
+      "path": "rag_tutorials/corrective_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/corrective_rag/"
+    },
+    {
+      "id": "typed-agentic-rag-with-pydantic-ai",
+      "title": "📎 Typed Agentic RAG with Pydantic AI",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Validated answers with exact citations, or a refusal when evidence is weak",
+      "path": "rag_tutorials/agentic_typed_rag_pydanticai/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/agentic_typed_rag_pydanticai/"
+    },
+    {
+      "id": "deepseek-local-rag-agent",
+      "title": "🐋 Deepseek Local RAG Agent",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Local DeepSeek reasoning over your own documents",
+      "path": "rag_tutorials/deepseek_local_rag_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/deepseek_local_rag_agent/"
+    },
+    {
+      "id": "gemini-agentic-rag",
+      "title": "🤔 Gemini Agentic RAG",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Query rewriting and web fallback with Gemini Flash Thinking",
+      "path": "rag_tutorials/gemini_agentic_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/gemini_agentic_rag/"
+    },
+    {
+      "id": "hybrid-search-rag-cloud",
+      "title": "👀 Hybrid Search RAG (Cloud)",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Keyword plus vector search feeding Claude",
+      "path": "rag_tutorials/hybrid_search_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/hybrid_search_rag/"
+    },
+    {
+      "id": "llama-3-1-local-rag",
+      "title": "🔄 Llama 3.1 Local RAG",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Chat with any webpage, fully offline",
+      "path": "rag_tutorials/llama3.1_local_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/llama3.1_local_rag/"
+    },
+    {
+      "id": "local-hybrid-search-rag",
+      "title": "🖥️ Local Hybrid Search RAG",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Hybrid search with everything running on your machine",
+      "path": "rag_tutorials/local_hybrid_search_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/local_hybrid_search_rag/"
+    },
+    {
+      "id": "multimodal-agentic-rag",
+      "title": "🧬 Multimodal Agentic RAG",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Text, PDFs, images, audio, and video, answered with citations",
+      "path": "rag_tutorials/multimodal_agentic_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/multimodal_agentic_rag/"
+    },
+    {
+      "id": "local-rag-agent",
+      "title": "🦙 Local RAG Agent",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Llama 3.2 and Qdrant, no API keys required",
+      "path": "rag_tutorials/local_rag_agent/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/local_rag_agent/"
+    },
+    {
+      "id": "rag-as-a-service",
+      "title": "🧩 RAG-as-a-Service",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "A production RAG service in under 50 lines",
+      "path": "rag_tutorials/rag-as-a-service/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag-as-a-service/"
+    },
+    {
+      "id": "rag-agent-with-cohere",
+      "title": "✨ RAG Agent with Cohere",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Command R7B retrieval with web-search fallback",
+      "path": "rag_tutorials/rag_agent_cohere/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag_agent_cohere/"
+    },
+    {
+      "id": "basic-rag-chain",
+      "title": "⛓️ Basic RAG Chain",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "The minimal retrieval pipeline, applied to pharma research",
+      "path": "rag_tutorials/rag_chain/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag_chain/"
+    },
+    {
+      "id": "rag-with-database-routing",
+      "title": "📠 RAG with Database Routing",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Routes each question to the right database automatically",
+      "path": "rag_tutorials/rag_database_routing/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag_database_routing/"
+    },
+    {
+      "id": "vision-rag",
+      "title": "🖼️ Vision RAG",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Ask questions about images and PDF pages with Embed-4",
+      "path": "rag_tutorials/vision_rag/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/vision_rag/"
+    },
+    {
+      "id": "rag-failure-diagnostics-clinic",
+      "title": "🩺 RAG Failure Diagnostics Clinic",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Find out why your RAG pipeline is wrong, systematically",
+      "path": "rag_tutorials/rag_failure_diagnostics_clinic/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag_failure_diagnostics_clinic/"
+    },
+    {
+      "id": "knowledge-graph-rag-with-citations",
+      "title": "🕸️ Knowledge Graph RAG with Citations",
+      "category": "📀 RAG (Retrieval Augmented Generation)",
+      "description": "Multi-hop answers with verifiable source attribution",
+      "path": "rag_tutorials/knowledge_graph_rag_citations/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/knowledge_graph_rag_citations/"
+    },
+    {
+      "id": "ai-arxiv-agent-with-memory",
+      "title": "💾 AI ArXiv Agent with Memory",
+      "category": "💾 LLM Apps with Memory",
+      "description": "Paper search that remembers your research interests",
+      "path": "advanced_llm_apps/llm_apps_with_memory_tutorials/ai_arxiv_agent_memory/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_apps_with_memory_tutorials/ai_arxiv_agent_memory/"
+    },
+    {
+      "id": "ai-travel-agent-with-memory",
+      "title": "🛩️ AI Travel Agent with Memory",
+      "category": "💾 LLM Apps with Memory",
+      "description": "A travel assistant that remembers your preferences",
+      "path": "advanced_llm_apps/llm_apps_with_memory_tutorials/ai_travel_agent_memory/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_apps_with_memory_tutorials/ai_travel_agent_memory/"
+    },
+    {
+      "id": "llama3-stateful-chat",
+      "title": "💬 Llama3 Stateful Chat",
+      "category": "💾 LLM Apps with Memory",
+      "description": "Session-persistent chat with Llama 3",
+      "path": "advanced_llm_apps/llm_apps_with_memory_tutorials/llama3_stateful_chat/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_apps_with_memory_tutorials/llama3_stateful_chat/"
+    },
+    {
+      "id": "llm-app-with-personalized-memory",
+      "title": "📝 LLM App with Personalized Memory",
+      "category": "💾 LLM Apps with Memory",
+      "description": "A chatbot that keeps context across conversations",
+      "path": "advanced_llm_apps/llm_apps_with_memory_tutorials/llm_app_personalized_memory/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_apps_with_memory_tutorials/llm_app_personalized_memory/"
+    },
+    {
+      "id": "local-chatgpt-clone-with-memory",
+      "title": "🗄️ Local ChatGPT Clone with Memory",
+      "category": "💾 LLM Apps with Memory",
+      "description": "Fully local, with a personal memory per user",
+      "path": "advanced_llm_apps/llm_apps_with_memory_tutorials/local_chatgpt_with_memory/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_apps_with_memory_tutorials/local_chatgpt_with_memory/"
+    },
+    {
+      "id": "multi-llm-application-with-shared-memory",
+      "title": "🧠 Multi-LLM Application with Shared Memory",
+      "category": "💾 LLM Apps with Memory",
+      "description": "Different models, one shared conversation memory",
+      "path": "advanced_llm_apps/llm_apps_with_memory_tutorials/multi_llm_memory/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_apps_with_memory_tutorials/multi_llm_memory/"
+    },
+    {
+      "id": "chat-with-github-gpt-llama3",
+      "title": "💬 Chat with GitHub (GPT & Llama3)",
+      "category": "💬 Chat with X",
+      "description": "Any repo, answered in 30 lines of RAG",
+      "path": "advanced_llm_apps/chat_with_X_tutorials/chat_with_github/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/chat_with_X_tutorials/chat_with_github/"
+    },
+    {
+      "id": "chat-with-gmail",
+      "title": "📨 Chat with Gmail",
+      "category": "💬 Chat with X",
+      "description": "Ask your inbox questions",
+      "path": "advanced_llm_apps/chat_with_X_tutorials/chat_with_gmail/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/chat_with_X_tutorials/chat_with_gmail/"
+    },
+    {
+      "id": "chat-with-pdf-gpt-llama3",
+      "title": "📄 Chat with PDF (GPT & Llama3)",
+      "category": "💬 Chat with X",
+      "description": "The classic, in 30 lines of Python",
+      "path": "advanced_llm_apps/chat_with_X_tutorials/chat_with_pdf/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/chat_with_X_tutorials/chat_with_pdf/"
+    },
+    {
+      "id": "chat-with-research-papers-arxiv-gpt-llama3",
+      "title": "📚 Chat with Research Papers (ArXiv) (GPT & Llama3)",
+      "category": "💬 Chat with X",
+      "description": "Explore arXiv conversationally with GPT-4o",
+      "path": "advanced_llm_apps/chat_with_X_tutorials/chat_with_research_papers/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/chat_with_X_tutorials/chat_with_research_papers/"
+    },
+    {
+      "id": "chat-with-substack",
+      "title": "📝 Chat with Substack",
+      "category": "💬 Chat with X",
+      "description": "Chat with any newsletter's archive",
+      "path": "advanced_llm_apps/chat_with_X_tutorials/chat_with_substack/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/chat_with_X_tutorials/chat_with_substack/"
+    },
+    {
+      "id": "chat-with-youtube-videos",
+      "title": "📽️ Chat with YouTube Videos",
+      "category": "💬 Chat with X",
+      "description": "Ask videos questions via their transcripts",
+      "path": "advanced_llm_apps/chat_with_X_tutorials/chat_with_youtube_videos/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/chat_with_X_tutorials/chat_with_youtube_videos/"
+    },
+    {
+      "id": "toonify-token-optimization",
+      "title": "🎯 Toonify Token Optimization",
+      "category": "🎯 LLM Optimization Tools",
+      "description": "Reduce LLM API costs by 30-60% using TOON format",
+      "path": "advanced_llm_apps/llm_optimization_tools/toonify_token_optimization/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_optimization_tools/toonify_token_optimization/"
+    },
+    {
+      "id": "headroom-context-optimization",
+      "title": "🧠 Headroom Context Optimization",
+      "category": "🎯 LLM Optimization Tools",
+      "description": "Reduce LLM API costs by 50-90%",
+      "path": "advanced_llm_apps/llm_optimization_tools/headroom_context_optimization/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_optimization_tools/headroom_context_optimization/"
+    },
+    {
+      "id": "gemma-3-fine-tuning",
+      "title": "🦥 Gemma 3 Fine-tuning",
+      "category": "🔧 LLM Fine-tuning",
+      "description": "4-bit LoRA with Unsloth, small and readable",
+      "path": "advanced_llm_apps/llm_finetuning_tutorials/gemma3_finetuning/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_finetuning_tutorials/gemma3_finetuning/"
+    },
+    {
+      "id": "llama-3-2-fine-tuning",
+      "title": "🦙 Llama 3.2 Fine-tuning",
+      "category": "🔧 LLM Fine-tuning",
+      "description": "Fine-tune in 30 lines, free on Colab",
+      "path": "advanced_llm_apps/llm_finetuning_tutorials/llama3.2_finetuning/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/advanced_llm_apps/llm_finetuning_tutorials/llama3.2_finetuning/"
+    },
+    {
+      "id": "google-adk-crash-course",
+      "title": "Google ADK Crash Course",
+      "category": "🧑‍🏫 AI Agent Framework Crash Courses",
+      "description": "Starter agent, structured outputs, tools (built-in, function, third-party, MCP), memory, callbacks, plugins, and multi-agent patterns. Model-agnostic.",
+      "path": "ai_agent_framework_crash_course/google_adk_crash_course/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/google_adk_crash_course/"
+    },
+    {
+      "id": "openai-agents-sdk-crash-course",
+      "title": "OpenAI Agents SDK Crash Course",
+      "category": "🧑‍🏫 AI Agent Framework Crash Courses",
+      "description": "Starter agent, function calling, structured outputs, tools, memory, evaluation, handoffs, swarm orchestration, and routing logic.",
+      "path": "ai_agent_framework_crash_course/openai_sdk_crash_course/",
+      "source": "https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_framework_crash_course/openai_sdk_crash_course/"
+    }
+  ]
+}
